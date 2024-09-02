@@ -1,0 +1,1323 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 8% 9% 48% 5% 12% 8% 8%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+
+.navbar .logo img{
+    width: 90px;
+}
+
+.navbar .logo img:hover{
+   border: 1px solid white;
+}
+
+
+.navbar .deliver{
+    display: flex;
+    padding: 10px 0px 10px 12px;
+
+}
+.navbar .deliver:hover{
+   border: 1px solid white;
+}
+.navbar .deliver img{
+    width: 20px;
+}
+.navbar .deliver .text p{
+    font-size: 16px;
+}
+
+.navbar .search{
+    display: block;
+}
+
+.navbar .search input{
+    width: 93%;
+    height: 30px;
+   margin-bottom: 2px;
+   margin-left: 17px;
+   border: none;
+   background-image: url(./images/search.png) ;
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: contain;
+   outline: none;
+   border: 2px solid rgb(255, 191, 0); ;
+   border-radius: 5px;
+
+}
+.navbar .search input:hover{
+    box-shadow:inset 1px 1px 2px  rgb(255, 191, 0); ;
+
+    }
+
+.flag{
+  padding: 10px 4px 20px 5px;
+}
+.flag:hover{
+    border: 1px solid white;
+    
+}
+.navbar .flag img{
+    width: 20px;
+}
+.navbar .flag span{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar .account-list{
+    font-size: 13px;
+    padding: 10px 0px 10px 12px;
+}
+.navbar .account-list:hover{
+    border: 1px solid #fff;
+
+}
+.navbar .account-list b{
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.navbar .order{
+    padding: 10px 0px 10px 12px;
+}
+.navbar .order p{
+font-size: 13px;
+}
+
+.navbar .order:hover{
+border: 1px solid white;
+}
+.navbar .order b{
+font-weight: bolder;
+}
+
+.cart{
+    display: flex;
+    padding: 10px 0px 10px 12px;
+}
+.cart:hover{
+    border: 1px solid white;
+}
+.navbar .cart img{
+    width:30%;
+    color: white;
+}
+.navbar .cart span{
+    text-align: center;
+    margin-top: 12px;
+    font-weight: bolder;
+}
+
+/* main container  */
+.main-container{
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns:22% 22% 22% 22% ;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    /* background-color: red; */
+  
+}
+.heading{
+    background-color:#fff; 
+    border: 2px solid white;
+    border-radius: 4px;
+    box-shadow:3px 3px 3px 3px rgb(189, 188, 188);
+    margin: 2px;
+    /* transition: transform ease-in 1s ; */
+}
+.heading:hover{
+    transform:scale(1.06);
+    transition: 1s;
+}
+.heading h2{
+    background-color:#fff; 
+    color:black ;
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 12px;
+}
+.container-1{
+    color: rgb(8, 8, 8);
+    background-color: #fff;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container-1 div img{
+   width: 100%;
+   height:120px;
+}
+.container-2{
+    padding: 10px;
+    width: 100%;
+    height:340px;
+}
+
+.container-2 img{
+    width: 100%;
+    padding-bottom: 10px;
+    height:300px;
+    cursor: pointer;
+}
+.link{
+    position: relative;
+    bottom:12px;
+}
+
+
+/* scrolar  */
+.best-selers{
+    position: relative;;
+    top: 600px;
+    background-color:#fbfbfb;
+    border: 1px solid rgb(251, 250, 249);
+    border-radius: 4px;
+}
+.best-selers h1:hover{
+    text-decoration: underline;
+}
+.best-selers h1{
+   font-size: x-large;
+   font-weight: bolder;
+   margin-left: 12px;
+}
+.best-selers-iner{
+    display: grid;
+    grid-template-columns: 15% 8% 8% 8% 15% 10% 10% 15%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+.best-selers-iner img{
+    width: 100%;
+    height: 200px;
+    cursor: pointer;
+    transition: transform ease 1s;
+}
+.best-selers-iner img:hover{
+    transform: scale(1.1); 
+}
+
+/* saler 2 */
+#best-selers2-iner{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-content: space-between;
+}
+
+/* book-dives */
+#book-dives{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+}
+
+
+/* personalized */
+.personalized{
+  box-shadow:2px 2px 2px 2px rgb(206, 203, 203);
+    position: relative;
+    top: 650px;
+}
+.text2 {
+   padding: 30px;
+    text-align: center;
+} 
+.text2 h1{
+    line-height: 20px;
+    font-size: large;
+} 
+
+.text2 h1 a{
+    font-size: small;
+} 
+.text2 button{
+    width: 320px;
+    height: 30px;
+    cursor: pointer;
+   font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: rgba(255, 196, 0, 0.866);
+    border: 1px solid rgb(227, 175, 7);
+} 
+.text2 button:hover{
+    background-color: rgb(255, 174, 0);
+    border: 1px solid rgb(227, 175, 7);
+} 
+
+/* back-to-top */
+.back-to-top{
+    position: relative;
+    top: 670px;
+    background-color: #004b91b4;
+    color: #fff;
+   
+}
+.back-to-top h1:first-child{
+    font-size: x-large;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.links{
+    display: grid;
+    grid-template-columns:  22% 22% 22% 22%;
+    justify-content: space-around;
+    background-color:#232F3E;
+    padding:30px 80px;
+    padding-bottom: 120px;
+   
+}
+.links .link-1 h3{
+   font-size: x-large;
+   font-weight: bold;
+}
+.links .link-1 a{
+  text-decoration: none;
+  display: block;
+  color: #ded1d1;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.links .link-1 a:hover{
+  text-decoration: underline;
+  box-shadow: 0 0 4px gray;
+ 
+}
+
+/* language */
+.language{
+    display: grid;
+    grid-template-columns:10% 80%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 30px;
+    height: 180px;
+    background-color:#232F3E;
+    border-top:1px solid #fff ;
+}
+.language .amazon img{
+width: 130px;
+height: 80px;
+}
+.btn button{
+    width: 180px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: #ded1d1;
+    height: 40px;
+    margin: 20px;
+    font-weight: bold;
+}
+.btn span{
+font-size: 13px;
+
+}
+.btn .material-symbols-outlined{
+font-size: 13px;
+color: white;
+
+}
+.btn button:hover{
+    background-color:#e1dcdc;
+    color:black ;
+    box-shadow: 1px 1px 7px rgb(243, 236, 236);
+}
+
+/* footer  */
+footer{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    top: 670px;
+    background-color: #131A22;
+    display: flex;
+    color: #fff ;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap:25px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    /* margin: 0 auto; */
+
+}
+.advertisement{
+    /* padding-top: 12px; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+.ad-1{
+    margin-top: 18px;
+}
+.ad-1 a{ 
+   color: #fff;
+   font-size:1rem;
+   text-decoration: none;
+   line-height: 12px;
+}
+.ad-1 a:hover{
+    text-decoration: underline;
+}
+.ad-1 a span{ 
+   color: #e2d6d6;
+   font-size: 10px;
+}
+.footer-text{
+    position: relative;
+    background-color: red;
+    top: 670px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: #131A22;
+}
+.footer-text p{
+   color: #e6dbdb;
+}
+
+
+/* fo   `r small screen 1000px */
+@media (max-width:1000px) {
+    .navbar{
+        display: grid;
+        grid-template-columns: 10% 10% 40% 8% 12% 8% 8%;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        color: white;
+    }
+    
+    
+    .navbar .logo img{
+        width: 80px;
+    }
+    
+   
+    .navbar .deliver{
+        display: flex;
+       padding: 4px 40px 3px 1px;
+    
+    }
+   
+    .navbar .deliver img{
+        width: 18px;
+    }
+    .navbar .deliver .text p{
+        font-size: 10px;
+    }
+  
+    .navbar .search input{
+        width: 90%;
+        height: 28px;
+       margin-bottom: 0px;
+       border: none;
+       outline: none;
+       border: 2px solid rgb(255, 191, 0); ;
+       border-top-left-radius: 5px;
+       border-bottom-left-radius: 5px;
+    
+    }
+
+    .flag{
+      padding: 8px 3px 8px 4px;
+    }
+    
+    .navbar .flag img{
+        width: 14px;
+    }
+    .navbar .flag span{
+        font-size: 14px;
+        font-weight:bold;
+    }
+    
+    .navbar .account-list{
+        font-size: 10px;
+        padding: 10px 0px 10px 12px;
+    }
+    .navbar .account-list b{
+        font-size: 10px;
+        font-weight: bold;
+    }
+    
+    .navbar .order{
+        padding: 5px 0px 10px    0px;
+    }
+    .navbar .order p{
+    font-size: 11px;
+    }
+ 
+    .navbar .order b{
+    font-weight: 12px;
+    }
+    
+    .cart{
+        padding:10px 20px 5px 0px;
+    }
+  
+    .navbar .cart img{
+        width:50%;
+        height:45% ;
+        color: white;
+    }
+    .navbar .cart span{
+        font-weight: bold;
+        margin-right: 20px;
+    }
+   
+
+    
+/* main container  */
+.main-container{
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns:22% 22% 22% 22% ;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    gap: 2px;
+    top: 20%;
+    /* background-color: red; */
+}
+.heading{
+    height:340px;
+}
+
+.heading h2{
+    background-color:#fff; 
+    color:black ;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+.container-1{
+    color: rgb(8, 8, 8);
+    background-color: #fff;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container-1 div img{
+   width: 100%;
+   height: 100px;
+}
+.container-1 p{
+    font-size: 12px;
+    margin-left: 2px;
+}
+
+.container-2{
+    padding: 8px;
+    width: 100%;
+    height:285px;
+}
+
+
+.container-2 img{
+    width: 100%;
+    padding-bottom: 10px;
+    height: 90%;
+    cursor: pointer;
+}
+.link{
+    position: relative;
+    bottom:12px;
+}
+/* scrolar  */
+.best-selers{
+    position: relative;;
+    top: 620px;
+    background-color:#fbfbfb;
+    border: 1px solid rgb(251, 250, 249);
+    border-radius: 4px;
+}
+.best-selers h1{
+   font-size: x-large;
+   font-weight: bolder;
+   margin-left: 12px;
+}
+.best-selers-iner{
+    display: grid;
+    grid-template-columns: 15% 5% 5% 5% 15% 10% 10% 15%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+.best-selers-iner img{
+    width: 100%;
+    height: 180px;
+    cursor: pointer;
+}
+
+/* personalized */
+.personalized{
+    box-shadow:2px 2px 2px 2px rgb(206, 203, 203);
+      position: relative;
+      top: 500px;
+  }
+  .text2 {
+     padding: 20px;
+  } 
+  .text2 h1{
+      line-height: 20px;
+      font-size: large;
+  } 
+  
+  .text2 h1 a{
+      font-size: small;
+  } 
+  .text2 button{
+      width: 310px;
+      height: 30px;
+      cursor: pointer;
+     font-weight: bold;
+      border-radius: 10px;
+      margin-bottom: 5px;
+      background-color: rgba(255, 196, 0, 0.866);
+      border: 1px solid rgb(227, 175, 7);
+  } 
+
+/* back-to-top */
+.back-to-top{
+    position: relative;
+    top: 500px;
+}
+.back-to-top h1:first-child{
+    font-size: large;
+    padding: 15px;
+}
+
+.links{
+    display: grid;
+    grid-template-columns:  22% 28% 30% 22%;
+    justify-content: space-around;
+    padding:30px 80px;
+    padding-bottom: 80px;
+   
+}
+.links .link-1 h3{
+   font-size: 1rem;
+   font-weight: bold;
+}
+.links .link-1 a{
+  text-decoration: none;
+  display: block;
+  font-size: 12px;
+  padding: 3px;
+}
+
+/* language */
+.language{
+    display: grid;
+    grid-template-columns:5% 95%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 100px;
+    height: 150px;
+    background-color:#232F3E;
+    border-top:1px solid #fff ;
+}
+.language .amazon img{
+width: 100px;
+height: 70px;
+}
+.btn button{
+    width: 140px;
+    height: 40px;
+    margin: 10px;
+    font-weight: bold;
+}
+/* footer  */
+footer{
+    width: 100%;
+    height: 55vh;
+    position: relative;
+    top: 500px;
+    background-color: #131A22;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    gap:15px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 100px;
+}
+.advertisement{
+    justify-content: center;
+    align-items: center;
+    margin-left: 4px;
+}
+.ad-1{
+    margin-top: 18px;
+}
+.ad-1 a{ 
+   font-size:12px;
+   line-height: 3px;
+}
+
+.ad-1 a span{ 
+   font-size: 9px;
+}
+.footer-text{
+    position: relative;
+    background-color: red;
+    top: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: #131A22;
+}
+.footer-text p{
+    font-size:12px;
+}
+
+
+
+}
+
+
+
+
+
+
+/* for laptop screen 780px */
+@media (max-width:780px) {
+    .navbar{
+        display: grid;
+        grid-template-columns: 10% 10% 40% 8% 14% 8% 8%;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        color: white;
+    }
+    
+    
+    .navbar .logo img{
+        width: 60px;
+    }
+    
+   
+    .navbar .deliver{
+        display: flex;
+       padding: 4px 40px 3px 1px;
+    
+    }
+   
+    .navbar .deliver img{
+        width: 16px;
+    }
+    .navbar .deliver .text p{
+        font-size: 8px;
+    }
+  
+    .navbar .search input{
+        width: 90%;
+        height: 25px;
+       margin-bottom: 0px;
+       border: none;
+       outline: none;
+       border: 2px solid rgb(255, 191, 0); ;
+       border-top-left-radius: 5px;
+       border-bottom-left-radius: 5px;
+    
+    }
+
+    .flag{
+      padding: 8px 3px 8px 4px;
+    }
+    
+    .navbar .flag img{
+        width: 14px;
+    }
+    .navbar .flag span{
+        font-size: 12px;
+        font-weight:bold;
+    }
+    
+    .navbar .account-list{
+        font-size: 9px;
+        padding: 10px 0px 10px 12px;
+    }
+    .navbar .account-list b{
+        font-size: 9px;
+        font-weight: bold;
+    }
+    
+    .navbar .order{
+        padding: 5px 0px 10px  0px;
+    }
+    .navbar .order p{
+    font-size: 10px;
+    }
+ 
+    .navbar .order b{
+    font-weight: 10px;
+    }
+    
+    .cart{
+        padding:10px 20px 5px 0px;
+    }
+  
+    .navbar .cart img{
+        width:50%;
+        height:45% ;
+        color: white;
+    }
+    .navbar .cart span{
+        font-size: 12px;
+        margin-right: 20px;
+    }
+   
+
+/* main container  */
+.main-container{
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns:22% 22% 22% 22% ;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    gap: 4px;
+    top: 40%;
+    /* background-color: red; */
+}
+
+.heading h2{
+    background-color:#fff; 
+    color:black ;
+    font-size: 8px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+
+.heading a{
+    font-size: 8px;
+   
+}
+.container-1{
+    color: rgb(8, 8, 8);
+    background-color: #fff;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container-1 div img{
+   width: 100%;
+   height: 80px;
+}
+.container-1 p{
+    font-size: 7px;
+    margin-left: 2px;
+}
+
+.container-2{
+    padding: 5px;
+    width: 100%;
+    height:220px;
+}
+
+
+.container-2 img{
+    width: 100%;
+    height: 96%;
+    cursor: pointer;
+}
+.link{
+    position: relative;
+    bottom:10px;
+}
+
+/* scrolar  */
+.best-selers{
+    position: relative;;
+    top: 550px;
+    background-color:#fbfbfb;
+    border: 1px solid rgb(251, 250, 249);
+    border-radius: 4px;
+}
+.best-selers h1{
+   font-size: x-large;
+   font-weight: bolder;
+   margin-left: 12px;
+}
+.best-selers-iner{
+    display: grid;
+    grid-template-columns: 15% 5% 5% 5% 15% 10% 10% 15%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+.best-selers-iner img{
+    width: 100%;
+    height: 180px;
+    cursor: pointer;
+}
+
+/* personalized */
+.personalized{
+      position: relative;
+      top: 535px;
+      height: 110px;
+  }
+  .text2 {
+     padding: 15px;
+  } 
+  .text2 h1{
+      line-height: 15px;
+      font-size: small;
+  } 
+  
+  .text2 h1 a{
+      font-size:12px;
+  } 
+  .text2 button{
+      width: 230px;
+      height: 28px;
+      cursor: pointer;
+     font-weight: bold;
+      border-radius: 10px;
+  } 
+
+  
+/* back-to-top */
+.back-to-top{
+    position: relative;
+    top: 535px;
+}
+.back-to-top h1:first-child{
+    font-size: small;
+    padding: 15px;
+}
+
+.links{
+    display: grid;
+    grid-template-columns:  20% 26% 27% 22%;
+    justify-content: space-around;
+    padding:20px 50px;
+    padding-bottom: 40px;
+   
+}
+.links .link-1 h3{
+   font-size: 13px;
+   font-weight: bold;
+}
+.links .link-1 a{
+  text-decoration: none;
+  display: block;
+  font-size: 9px;
+  padding: 2px;
+}
+
+/* language */
+.language{
+    display: grid;
+    grid-template-columns:8% 90%;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-left: 70px;
+    height: 140px;
+}
+.language .amazon img{
+width: 70px;
+height: 50px;
+}
+.btn button{
+    width: 20%;
+    height: 35px;
+    margin: 6px;
+    font-size:8px;
+    font-weight:10;
+}
+/* footer  */
+footer{
+    width: 100%;
+    height: 45vh;
+    position: relative;
+    top: 520px;
+    display: grid;
+    grid-template-columns: 20% 27% 27% 26%;
+    gap:10px;
+    line-height: 12px;
+}
+footer 
+.advertisement{
+    justify-content: center;
+    align-items: center;
+}
+.ad-1{
+    margin-top: 15px;
+}
+.ad-1 a{ 
+   font-size:9px;
+   line-height: 0px;
+}
+
+.ad-1 a span{ 
+   font-size: 7px;
+}
+.footer-text{
+    position: relative;
+    top: 520px;
+    padding: 15px 15px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: #131A22;
+}
+.footer-text p{
+    font-size:8px;
+}
+
+
+}
+
+
+/* for laptop screen 420px */
+@media (max-width:420px) {
+    .navbar{
+        display: grid;
+        grid-template-columns: 10% 10% 40% 10% 13% 8% 8%;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        color: white;
+    }
+    
+    
+    .navbar .logo img{
+        width: 30px;
+    }
+    
+   
+    .navbar .deliver{
+        display: flex;
+       padding: 1px 20px 1px 1px;
+    
+    }
+   
+    .navbar .deliver img{
+        width: 10px;
+    }
+    .navbar .deliver .text p{
+        font-size: 5px;
+    }
+  
+    .navbar .search input{
+        width: 84%;
+        height: 17px;
+       margin-bottom: 0px;
+       border: none;
+       outline: none;
+       font-size: 10px;
+       border: 1px solid rgb(255, 191, 0); ;
+       
+    
+    }
+
+    .flag{
+      padding: 1px 0px 0px 6px;
+    }
+    
+    .navbar .flag img{
+        width: 10px;
+    }
+    .navbar .flag span{
+        font-size: 5px;
+        font-weight:5px;
+    }
+    
+    .navbar .account-list{
+        font-size: 5px;
+        padding: 3px 2px 1px 1px;
+    }
+    .navbar .account-list b{
+        font-size: 5px;
+        font-weight:2px;
+    }
+    
+    .navbar .order{
+        padding: 3px 0px 3px  0px;
+    }
+    .navbar .order p{
+    font-size: 5px;
+    }
+ 
+    .navbar .order b{
+    font-weight: 6px;
+    }
+    
+    .cart{
+        padding:2px 20px 2px 0px;
+    }
+  
+    .navbar .cart img{
+        margin-top: 4px;
+        width:95%;
+        height:70% ;
+        color: white;
+    }
+    .navbar .cart span{
+        font-size: 6px;
+        margin-right: 20px;
+    }
+   
+    
+/* main container  */
+.main-container{
+    width: 100%;
+    height: 80vh;
+    display: grid;
+    grid-template-columns:45% 45%;
+    gap: 15px;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+}
+.heading{
+    height: 290px;
+}
+
+.heading h2{
+    background-color:#fff; 
+    color:black ;
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 2px;
+}
+.heading a{
+    font-size: 9px;
+}
+.container-1{
+    color: rgb(8, 8, 8);
+    background-color: #fff;
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container-1 div img{
+   width: 100%;
+   height: 90px;
+}
+.container-1 p{
+    font-size: 9px;
+    margin-left: 2px;
+}
+
+.container-2{
+    padding: 5px;
+    width: 100%;
+    height:250px;
+}
+
+
+.container-2 img{
+    width: 100%;
+    height: 90%;
+    cursor: pointer;
+}
+.link{
+    position: relative;
+    bottom:10px;
+}
+/* scrolar  */
+.best-selers{
+    position: relative;;
+    top: 1280px;
+    background-color:#fbfbfb;
+    border: 1px solid rgb(251, 250, 249);
+    border-radius: 4px;
+}
+.best-selers h1{
+   font-size: 14px;
+   font-weight: bolder;
+   margin-left: 6px;
+}
+.best-selers-iner{
+    display: grid;
+    grid-template-columns: 15% 5% 5% 5% 15% 10% 10% 15%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 12px;
+}
+.best-selers-iner img{
+    width: 100%;
+    height: 120px;
+    cursor: pointer;
+}
+
+
+
+
+/* personalized */
+.personalized{
+    position: relative;
+    top: 1210px;
+    background-color: white;
+    height: 90px;
+}
+.text2 {
+   padding: 10px;
+} 
+.text2 h1{
+    line-height: 10px;
+    font-size: 12px;
+} 
+
+.text2 h1 a{
+    font-size:10px;
+} 
+.text2 button{
+    width: 200px;
+    height: 25px;
+    cursor: pointer;
+   font-weight: bold;
+    border-radius: 10px;
+} 
+
+
+/* back-to-top */
+.back-to-top{
+  position: relative;
+  top: 1213px;
+}
+.back-to-top h1:first-child{
+  font-size: small;
+  padding: 12px;
+}
+
+.links{
+  display: grid;
+  grid-template-columns:  20% 26% 27% 22%;
+  justify-content: space-around;
+  padding:20px 30px;
+  padding-bottom: 40px;
+  gap: 12px;
+ 
+}
+.links .link-1 h3{
+ font-size: 9px;
+ font-weight: bold;
+}
+.links .link-1 a{
+text-decoration: none;
+display: block;
+font-size: 8px;
+padding: 2px;
+}
+
+/* language */
+.language{
+  display: grid;
+  grid-template-columns:8% 92%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-left: 40px;
+  height: 115px;
+}
+.language .amazon img{
+width: 50px;
+height: 30px;
+}
+.btn button{
+  width: 22%;
+  height: 30px;
+  margin: 6px;
+  font-size:5px;
+  font-weight:10;
+}
+
+
+/* footer  */
+footer{
+  width: 100%;
+  height: 20vh;
+  position: relative;
+  top: 1200px;
+  display: grid;
+  grid-template-columns: 40% 50%;
+  gap:10px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .hdn{
+    display: none;
+}
+.advertisement{
+  justify-content: center;
+  align-items: center;
+}
+.ad-1{
+  margin-top: 0px;
+}
+.ad-1 a{ 
+ font-size:6px;
+ line-height: 0px;
+}
+
+.ad-1 a span{ 
+ font-size: 5px;
+}
+.footer-text{
+  position: relative;
+  background-color: red;
+  top: 1200px;
+  padding: 15px 15px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  background-color: #131A22;
+}
+.footer-text p{
+  font-size:6px;
+}
+
+
+}
